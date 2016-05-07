@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="fiveApp"
+  id="myeclipse.1420428481187"
+  context-root="/fiveApp"
+  j2ee-spec="6.0"
+  archive="fiveApp.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

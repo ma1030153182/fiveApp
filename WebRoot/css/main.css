@@ -1,0 +1,25 @@
+
+#kefu-search{
+	float: right;
+	margin-right: 400px;
+}
+#kefu-search-bt{
+	height: 29px;
+	
+}
+.tabs-title{
+	border-radius: 3px;
+}
+.out-pane{
+	width: 1100px;
+}
+.table-tr th{
+	text-align: right;
+	
+	width: 120px;
+	font-size:14px;
+	font-weight: 100;
+}
+.table-tr td{
+	text-align: left;
+}

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+<constant name="strutts.i18n.encoding" value="UTF-8"/>
+<package name="default" extends="struts-default">
+
+     	     
+     	     <action name="loginAction_login" class="loginAction" method="login">
+     	     <result name="success">/main.jsp</result>
+     	     <result name="error">/index.jsp</result>
+     	     </action>
+     	     <action name="loginAction_loginOut" class="loginAction" method="loginOut">
+     	     <result name="success">/index.jsp</result>
+     	     </action>
+     	    <action name="loginAction_checkRole" class="loginAction" method="checkRole">
+     	     </action>
+     	     
+     	    <action name="keFuAction_queryAllCustom" class="keFuAction" method="queryAllCustom"></action>
+     	    <action name="keFuAction_addCustom" class="keFuAction" method="addOneCustom"></action>
+     	    <action name="keFuAction_deleteCustom" class="keFuAction" method="deleteCustom"></action>
+     	    <action name="keFuAction_editCustom" class="keFuAction" method="editCustom"></action>
+     	    <action name="keFuAction_queryCustomByIdCard" class="keFuAction" method="queryCustomByIdCard"></action>
+     	    <action name="keFuAction_addReportRepair" class="keFuAction" method="addReportRepair"></action>
+     	   <action name="keFuAction_queryAllCustomBy" class="keFuAction" method="queryAllCustomBy"></action>
+     	   <action name="keFuAction_editReportRepair" class="keFuAction" method="editReportRepair"></action>
+  
+     	    
+     	    <action name="kuFangAction_addBeijian" class="kuFangAction" method="addBeijian"></action>
+     	    <action name="kuFangAction_deleteBeijian" class="kuFangAction" method="deleteBeijian"></action>
+     	    <action name="kuFangAction_editBeijian" class="kuFangAction" method="editBeijian"></action>
+     	    <action name="kuFangAction_queryBeijianAll" class="kuFangAction" method="queryBeijianAll"></action>
+     	    <action name="kuFangAction_queryBeijianBy" class="kuFangAction" method="queryBeijianBy"></action>
+             <action name="kuFangAction_queryApplyComplete" class="kuFangAction" method="queryApplyComplete"></action>
+              <action name="kuFangAction_queryApplyAll" class="kuFangAction" method="queryApplyAll"></action>
+     	     <action name="kuFangAction_passApply" class="kuFangAction" method="passApply"></action>
+     	    
+     	    
+     	     <action name="diaoDuAction_queryAllReportRepair" class="diaoDuAction" method="queryAllReportRepair"></action>
+     	   <action name="diaoDuAction_fenpeiWeixiushi" class="diaoDuAction" method="fenpeiWeixiushi"></action>
+     	   
+     	      <action name="WeiXiuAction_tongjiWeixiushiGongzuo" class="weiXiuAction" method="tongjiWeixiushiGongzuo"></action>
+     	 
+     	 
+     	 
+     	 <action name="WeiXiuAction_addBeijianApply" class="weiXiuAction" method="addBeijianApply"></action>
+     	 <action name="WeiXiuAction_editBeiJianApply" class="weiXiuAction" method="editBeiJianApply"></action>
+     	 <action name="WeiXiuAction_DeleteBeiJianApply" class="weiXiuAction" method="DeleteBeiJianApply"></action>
+     	  <action name="WeiXiuAction_sureBeijianApply" class="weiXiuAction" method="sureBeijianApply"></action>
+     	  
+     	  <action name="WeiXiuAction_queryBeijianApply" class="weiXiuAction" method="queryBeijianApply"></action>
+     	  <action name="WeiXiuAction_seeReportRepair" class="weiXiuAction" method="seeReportRepair"></action>
+     	  <action name="WeiXiuAction_fillWriteReport" class="weiXiuAction" method="fillWriteReport"></action>
+     	  <action name="WeiXiuAction_startWeixiu" class="weiXiuAction" method="startWeixiu"></action>
+     	 <action name="WeiXiuAction_queryAllWeixiu" class="weiXiuAction" method="queryAllWeixiu"></action>
+     	 
+     	
+     	 
+     	 
+</package>
+
+</struts>    
